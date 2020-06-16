@@ -1,0 +1,97 @@
+.page-home .content .toolbar {
+    width: 100%;
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary-color);
+}
+
+.page-home .content #logo {
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+.page-home .content .toolbar p {
+    margin-left: 70%;
+}
+
+.page-home .content #avatar {
+    width: 50px;
+    height: 50px;
+    margin-right: 80px;
+}
+
+.page-home .content .middlle {
+    text-align: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 450px;
+    width: 500px;
+    
+}
+
+.page-home .content .middlle a{
+    color: white;
+    width: 100%;
+    max-width: 360px;
+    height: 72px;
+    border-radius: 8px;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 75px;
+    transition: 400ms;
+}
+
+.page-home .content .middlle #a-text{
+    margin-left: 130px;
+}
+
+.page-home .content .middlle  h1 {
+    margin: 40px;
+}
+
+footer {
+    background: var(--primary-color);   
+    color: white;
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+}
+
+footer .top {
+    display: flex;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.mid p {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 420px;
+}
+
+.down {
+    width: 100%;
+    height: 39px;
+    background: #105ab9;
+    margin-top: 80px;
+}
+
+.down p {
+    /*align-items: center;
+    justify-content: center;*/
+    margin-left: 450px;
+    padding: 10px;
+}
+
+.down a{
+    color: #cecccc;
+}
